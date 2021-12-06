@@ -3,7 +3,7 @@ import App from '../src/interfaces/app.js';
 import Message from '../src/interfaces/message.js';
 import dotenv from 'dotenv';
 
-// dotenv.config();
+dotenv.config();
 Message.system( 'Initializing interface...' );
 const app = new App();
 app.setup()
